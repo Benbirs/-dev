@@ -1,0 +1,43 @@
+#S1
+print("UZUNLUK")
+a1= input("Lütfen bir değer giriniz:")
+print(len(a1))
+
+
+
+
+#S2
+#çözemedim
+
+
+
+  
+#S3
+print("3 İLE ÇARPMA")
+b1 = int(input("Lütfen bir değer giriniz:"))
+b2 = b1*3
+print("I love you " + str(b2) + " thousand")
+
+
+
+
+#S4
+print("PAROLA")
+
+p1= "şafak"
+parola = input("Lütfen parola girin:")
+
+while p1 == parola :
+    c=input("Yapmak istediğiniz işlem nedir ? (Çıkmak için Q yazınız.)")
+    if c == "Q":
+        a1 = ("Program bitti.")
+        a2 = ("")
+        p1="aaaaa"
+    else:
+        print("Kandırdım tekrar değer gir")
+        a1 = ("BİLEMEDİN Şafak")
+        a2 = ("Dıkşın !")
+        parola = input("Lütfen parola girin:")
+
+print(a1)
+print(a2)
